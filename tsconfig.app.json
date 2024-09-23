@@ -19,20 +19,24 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    "types": [
-      "cypress",
-      "@testing-library/cypress",
-      "@testing-library/jest-dom"
-    ]
+    "types": ["@testing-library/cypress", "@testing-library/jest-dom", "jest"]
   },
   "include": [
     "src",
     "jest.setup.ts",
-    "__mocks__",
     "src/components",
     "custom.d.ts",
     "**/*.ts",
-    "shared"
+    "shared",
+    "src/*.ts"
   ],
-  "exclude": ["cypress.config.ts", "cypress", "node_modules"]
+  "files": ["cypress.config.ts"],
+  "exclude": [
+    "node_modules",
+    "./tests/*",
+    "cypress",
+    "./cypress.config.ts",
+    "**/*.test.tsx",
+    "**/*.test.ts"
+  ]
 }
