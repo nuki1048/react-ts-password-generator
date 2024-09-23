@@ -1,0 +1,12 @@
+{
+  "title": "Password Generator",
+  "copy_password": "Copy Password_",
+  "uppercase_letters": "Uppercase Letters",
+  "lowercase_letters": "Lowercase Letters",
+  "numbers": "Numbers",
+  "symbols": "Symbols",
+  "password_history": "Password History",
+  "disable_audio": "Disable Audio",
+  "enable_audio": "Enable Audio",
+  "password_copy": "Password Copied."
+}
